@@ -1,0 +1,51 @@
+--- original_ai_output
++++ final_pattern.py
+@@ -1,4 +1,3 @@
+-```python
+ """AI-assisted motion pattern implementation.
+ 
+ Preserve the original AI response in Streamlit. Review it, then implement a safe
+@@ -7,14 +6,11 @@
+ from __future__ import annotations
+ from dataclasses import dataclass
+ import math
+-
+-
+ @dataclass(frozen=True)
+ class Segment:
+     linear_x: float
+     angular_z: float
+     duration: float
+-
+ 
+ def build_pattern(pattern_name: str) -> list[Segment]:
+     """Return ordered, bounded motion segments for the assigned pattern.
+@@ -24,19 +20,19 @@
+     publishes it and the evaluator verifies it.
+     """
+     if pattern_name != "alternating_arcs":
+-        raise ValueError(f"Unknown pattern: {pattern_name}")
++     raise ValueError(f"Unknown pattern: {pattern_name}")
+ 
+     linear_x = 0.12
+     angular_z = 0.40
+ 
+-    # Each arc turns 45 degrees.
+-    # duration = angle / angular velocity.
++# Each arc turns 45 degrees.
++# duration = angle / angular velocity.
+     duration = (math.pi / 4.0) / angular_z
+ 
+     return [
+-        Segment(linear_x, +angular_z, duration),
+-        Segment(linear_x, -angular_z, duration),
+-        Segment(linear_x, +angular_z, duration),
+-        Segment(linear_x, -angular_z, duration),
+-    ]
+-```
++    Segment(linear_x, +angular_z, duration),
++    Segment(linear_x, -angular_z, duration),
++    Segment(linear_x, +angular_z, duration),
++    Segment(linear_x, -angular_z, duration),
++]
++

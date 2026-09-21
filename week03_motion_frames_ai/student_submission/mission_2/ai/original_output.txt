@@ -1,0 +1,3 @@
+To convert a 3D point detected in the hallway camera frame (hall_camera) into the robot's base frame (base_link), you can use the ROS 2 tf2_ros library to lookup the active rigid-body transform and transform a PointStamped message.
+
+Below is a standard ROS 2 Python node that listens to the TF tree and transforms points from hall_camera to base_link:

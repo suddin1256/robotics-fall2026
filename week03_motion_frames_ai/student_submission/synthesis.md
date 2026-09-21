@@ -1,0 +1,3 @@
+# Technical synthesis
+
+A robot’s motion program can have zero odometry drift and still fail within a sociotechnical system. For example, a delivery robot moving through a crowded hospital hallway might strictly enforce a 1.0 m obstacle buffer by directly stopping whenever a human steps into its path. While computationally correct, a sudden stop in narrow passages will block medical staff, block gurneys, and even scare visually impaired pedestrians who cannot predict the robot's stopping behavior. Understanding this deployment requires qualitative evidence alongside good technical logs. We must conduct and analyze pedestrian surveys, workplace incident reports, and even make video observations on traffic flow disruptions.

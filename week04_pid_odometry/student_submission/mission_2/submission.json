@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-09-26T14:01:33",
+  "mission_id": "mission_2",
+  "student": {
+    "name": "Shadib Uddin",
+    "student_id": "24101093",
+    "section": ""
+  },
+  "explanations": {
+    "prediction": "The forward tune would be very aggressive, and it may over shoot the target, whereas the side to side maybe hit the target but very slowly, and the forward-to-back may be too aggressive for the strafe tune to be effective.",
+    "calibration_analysis": "I predicted that if the forward will affect the side, I didn't realize that the values actually can affect the path making, in fact, the value can actually transform the whole path as a whole to the side if one value is off."
+  },
+  "params": {
+    "forwardInPerTick": 0.0504,
+    "strafeInPerTick": 0.0505
+  },
+  "metrics": {
+    "max_error_in": 0.7871534986265606,
+    "final_error_in": 0.6279559525953894,
+    "passed": true
+  },
+  "result": {
+    "passed": true,
+    "maxError": 0.7871534986265606,
+    "finalError": 0.6279559525953894,
+    "params": {
+      "forwardInPerTick": 0.0504,
+      "strafeInPerTick": 0.0505
+    }
+  },
+  "csv_files": {},
+  "activity_gifs": [
+    "latest_odometry_test.gif"
+  ]
+}

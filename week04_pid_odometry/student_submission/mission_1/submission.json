@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-09-26T13:53:42",
+  "mission_id": "mission_1",
+  "student": {
+    "name": "Shadib Uddin",
+    "student_id": "24101093",
+    "section": ""
+  },
+  "explanations": {
+    "prediction": "If the values are too small, the arm would move very slowly to reach the target.",
+    "tuning_analysis": "I was correct in my prediction that the P and D values need to be high, since if they're too small, it will take forever for the arm to move. I've noticed the stiff tune had the best lock on target, where the P and D were high, and the I was low. With the gravity compensation, the target that the arm reached was right on verse when it's off, the target would be off."
+  },
+  "params": {
+    "activity": "two_link_arm_pid_tuning",
+    "kp1": 10.6,
+    "ki1": 4,
+    "kd1": 6,
+    "kp2": 13.6,
+    "ki2": 4,
+    "kd2": 5.8,
+    "gravityCompensation": false
+  },
+  "metrics": {
+    "completed": true,
+    "posesHeld": 3,
+    "posesRequired": 3
+  },
+  "checkin": {
+    "note": "I was correct in my prediction that the P and D values need to be high, since if they're too small, it will take forever for the arm to move. I've noticed the stiff tune had the best lock on target, where the P and D were high, and the I was low. With the gravity compensation, the target that the arm reached was right on verse when it's off, the target would be off.",
+    "choice": "",
+    "complete": true
+  },
+  "csv_files": {},
+  "activity_gifs": [
+    "latest_arm_tuning.gif"
+  ]
+}

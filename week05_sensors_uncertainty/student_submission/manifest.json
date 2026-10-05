@@ -1,0 +1,34 @@
+{
+  "files": {
+    "autosave/responses.json": "72f3719cff0c4ecfc3133f98ef4572546b819b261941f0eec0bd25cbd8eabdc5",
+    "autosave/responses.md": "fa4eed4debe6d5f435842742a52e9ee1dc97017ba7beddf275df74f7d36298cf",
+    "final_reflection.md": "568e08c18556da06c48078390d750eeadaa95bf8617f5eb4458b4ee3d12aab3c",
+    "final_synthesis.md": "acfeb89eb63cdbff4c1cec044e09a2ec4bc5ccbdc3b6622f9a3d8fed9d2383c8",
+    "mission_1/evidence.png": "fc8ccf93bc35430de9efac381caf52bb24bfcf1f88f2a422366c9455e1684143",
+    "mission_1/explanation.md": "d0be6301aeb09b5d92f5f3b269e186790640da2e05fb8049c485f4312bc76d12",
+    "mission_1/measurements.csv": "a3d8efc7a64314676c09edfdd98f0257e55e5ff77949220756ffefdde819746f",
+    "mission_1/submission.json": "1cbd4dc8566d87a72ee4e5fdedb60bc3386fac8cdc2a4ea151e9080b5c5d75e8",
+    "mission_2/evidence.png": "2b8ad3ef1add29b42c33bdf2480faf73cbb50b0e8e302130d80fb3e760624a65",
+    "mission_2/explanation.md": "c2ef7d0a7f933fdd67523d6af0a2b6df412a190f4cd5e750312c2208f6c5ba3e",
+    "mission_2/measurements.csv": "49b6ea63460a34336ca9416dcefc121e0dfd2b537b63b41e88ff850363314f75",
+    "mission_2/submission.json": "89ebfc2bbab35b59d9644f49ba2be28f128a8ee893a5905fa9a16ffef75dfc98",
+    "mission_3/explanation.md": "70ddb98ddba0f98277b0b77004f218cbee4780f95f2cdfdbcb77dfd58f6a65e6",
+    "mission_3/measurements.csv": "c55fa73df4ec7efca92954abd6b900707037fcea5a13be783cfa72a6954f0de8",
+    "mission_3/submission.json": "4751f369ff3d5e4eefe70b50dc349574f362d03dbc740035e441b423cd88e90b",
+    "student.json": "c8319763b5005440b5e61ce290398f76f664951928c944abeee17bb22b410a64"
+  },
+  "generated_at": "2026-10-05T21:06:51.790978+00:00",
+  "lab_id": "week05_sensors_uncertainty",
+  "mission_signatures": {
+    "mission_1": "d08013dee26d4e3f",
+    "mission_2": "cc42d8cf789fc6a1",
+    "mission_3": "04a68862630d8d56"
+  },
+  "response_signature": "42ed7b6fadefe2bd",
+  "schema_version": 2,
+  "student": {
+    "course_id": "24101093",
+    "email": "shadib.uddin93@login.cuny.edu",
+    "name": "Shadib Uddin"
+  }
+}

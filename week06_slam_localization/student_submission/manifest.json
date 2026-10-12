@@ -1,0 +1,35 @@
+{
+  "files": {
+    "autosave/responses.json": "63e323d5e0ee80d4d003cabf9421c7133a03f3688530a88382b546a43e87df72",
+    "autosave/responses.md": "6e3eeac8c7bd57a9b53c840aa99375395604425de66fe1ba9296ca955e88cab4",
+    "final_reflection.md": "87b2e67b38c440f7edd0f7ae2caf80b390669ec842806ffb10decbc327a93336",
+    "final_synthesis.md": "8ab5b8f97539645c7146fe8bd69a5ec98cec4744688e70e4aac8579270d1d4ca",
+    "mission_1/analysis.json": "aa5e82f252850493e442c1eaefaea17bf4ec09e979da8b90ded440799fe1068b",
+    "mission_1/evidence.json": "49d4fb590eede43278427415f75bb08431ce6735a5c6ac331586bbd6328bde13",
+    "mission_1/explanation.md": "3a3ca61d8292c3f5ec10b43a854a586ae503688257aad0f3ff1bd132aaee10e7",
+    "mission_1/map.pgm": "9e55cba74d91daf0dbeb7eac9aee9a5e3ac014b66c9cc4e46142828aa5c672f8",
+    "mission_1/map.yaml": "5fe53b69f80c9b68ac848c1e9e837067ae789d974b79573bc82b1739ebf633cd",
+    "mission_1/rviz_screenshot.png": "691f9c1e2c8ab43f42d870673877eabf591942533c09fd0eaaba7be0c4880a1a",
+    "mission_1/submission.json": "6b1e076c5cdf8beb5e4e870cf24c4d1acee997680af2df77da5ee489df58505a",
+    "mission_2/analysis.json": "466ef4109f2f7e0790fdc21efd73a604e6bfcc1e10becffd8d784c6d38ca03f2",
+    "mission_2/evidence.json": "0d117ed574dac4eab29b3e2c8c39ae00388480ecd37d5c9c100f283876503b64",
+    "mission_2/explanation.md": "bc04fafacc7c87ff0d9db27ca0d1420619a1bbbdf1f45405c32a9758de1c45c8",
+    "mission_2/map.pgm": "e6a4c68fc9b67275cb9263efd1c43c23c75d4f9997b8909fb044958378fb16fe",
+    "mission_2/map.yaml": "b4cac70285cda9f7a33c88a65423f4f57e36cdce5b01ab8abf0eb28e1586fe72",
+    "mission_2/rviz_screenshot.png": "07b2341d513018d7ebec056e75029b9aec6c69725567afbf934072fdf75d690a",
+    "mission_2/submission.json": "382710732d451c45f961869340f75b9f1c19f0e5f264f68f868be010773fee83",
+    "student.json": "5292719e49bde447a8085949ff4235b1c03769c808744af8a7361b43541d202b"
+  },
+  "generated_at": "2026-10-12T15:15:36.227223+00:00",
+  "lab_id": "week06_slam_localization",
+  "mission_signatures": {
+    "mission_1": "df9088b1dfa87d9d",
+    "mission_2": "345ae12aafbb2c6f"
+  },
+  "response_signature": "5d6d3aa3885e06d0",
+  "schema_version": 2,
+  "student": {
+    "email": "shadib.uddin93@login.cuny.edu",
+    "name": "Shadib Uddin"
+  }
+}

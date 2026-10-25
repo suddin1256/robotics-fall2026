@@ -1,0 +1,32 @@
+image_id,condition,expected,detected,confidence,latency_ms,bbox,reference_box,selected_iou
+normal_1,normal,True,False,0.0,55.51312000170583,,"[243.0, 0.0, 148.0, 108.0]",0.0
+normal_2,normal,True,False,0.0,50.76353999902494,,"[251.0, 0.0, 148.0, 108.0]",0.0
+dim_1,dim,True,False,0.0,35.04666300068493,,"[235, 0, 148, 108]",0.0
+dim_2,dim,True,False,0.0,24.706558000616496,,"[235, 0, 148, 108]",0.0
+glare_1,glare,True,False,0.0,15.01251400259207,,"[235, 0, 148, 108]",0.0
+glare_2,glare,True,False,0.0,28.842016999988118,,"[235, 0, 148, 108]",0.0
+far_1,far,True,False,0.0,22.09323100032634,,"[238.0, 96.0, 59.20001220703125, 43.19999694824219]",0.0
+far_2,far,True,False,0.0,12.501425000664312,,"[237.0, 64.0, 88.80001831054688, 64.80000305175781]",0.0
+occluded_1,occluded,True,False,0.0,23.93787399705616,,"[235, 0, 148, 108]",0.0
+occluded_2,occluded,True,False,0.0,11.124332999315811,,"[235, 0, 148, 108]",0.0
+rotated_1,rotated,True,False,0.0,16.36737599983462,,"[201.8433837890625, 0.0, 167.22030639648438, 110.17588806152344]",0.0
+rotated_2,rotated,True,False,0.0,18.551075001596473,,"[170.35440063476562, 0.0, 179.13229370117188, 114.52931213378906]",0.0
+cluttered_1,cluttered,True,False,0.0,22.01097699798993,,"[235, 0, 148, 108]",0.0
+cluttered_2,cluttered,True,False,0.0,20.682872000179486,,"[235, 0, 148, 108]",0.0
+distractor_1,distractor,False,False,0.0,16.96062900009565,,,0.0
+distractor_2,distractor,False,False,0.0,16.03273499858915,,,0.0
+blur_1,blur,True,False,0.0,14.098085001023719,,"[235, 0, 148, 108]",0.0
+blur_2,blur,True,False,0.0,19.7841530025471,,"[235, 0, 148, 108]",0.0
+background_1,background,True,False,0.0,15.950900000461843,,"[235, 0, 148, 108]",0.0
+background_2,background,True,False,0.0,15.09844500105828,,"[235, 0, 148, 108]",0.0
+normal_absent,normal,False,False,0.0,19.165342000633245,,,0.0
+dim_absent,dim,False,False,0.0,6.12439700125833,,,0.0
+glare_absent,glare,False,False,0.0,9.645472997362958,,,0.0
+far_absent,far,False,False,0.0,10.734763996879337,,,0.0
+occluded_absent,occluded,False,False,0.0,11.107390997494804,,,0.0
+rotated_absent,rotated,False,False,0.0,17.677473999356152,,,0.0
+cluttered_absent,cluttered,False,False,0.0,10.52450000133831,,,0.0
+blur_absent,blur,False,False,0.0,9.173596001346596,,,0.0
+background_absent,background,False,False,0.0,12.06179599830648,,,0.0
+independent_mug,independent,True,False,0.0,10.675178000383312,,"[26.0, 0.0, 345.6, 278.40000000000003]",0.0
+independent_cup,independent,True,False,0.0,20.621951000066474,,"[165.9776, 3.2, 148.512, 300.8]",0.0

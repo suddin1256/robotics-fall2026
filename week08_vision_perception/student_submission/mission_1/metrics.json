@@ -1,0 +1,303 @@
+{
+  "box_conditions": [
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "normal"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "dim"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "glare"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "far"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "occluded"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "rotated"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "cluttered"
+    },
+    {
+      "box_fn": 0,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": null,
+      "box_tp": 0,
+      "condition": "distractor"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "blur"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "background"
+    },
+    {
+      "box_fn": 2,
+      "box_fp": 0,
+      "box_precision": null,
+      "box_recall": 0.0,
+      "box_tp": 0,
+      "condition": "independent"
+    }
+  ],
+  "conditions": [
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "normal",
+      "conditions": [
+        "normal"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 41.81400066712134,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "dim",
+      "conditions": [
+        "dim"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 21.959206000853253,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "glare",
+      "conditions": [
+        "glare"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 17.833334666647715,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "far",
+      "conditions": [
+        "far"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 15.109806665956663,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "occluded",
+      "conditions": [
+        "occluded"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 15.38986599795559,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "rotated",
+      "conditions": [
+        "rotated"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 17.531975000262417,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "cluttered",
+      "conditions": [
+        "cluttered"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 17.739449666502576,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 1.0,
+      "condition": "distractor",
+      "conditions": [
+        "distractor"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 0,
+      "fp": 0,
+      "mean_latency_ms": 16.4966819993424,
+      "precision": null,
+      "recall": null,
+      "sample_count": 2,
+      "tn": 2,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "blur",
+      "conditions": [
+        "blur"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 14.351944668305805,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.3333333333333333,
+      "condition": "background",
+      "conditions": [
+        "background"
+      ],
+      "false_positive_rate": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 14.370380333275534,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 3,
+      "tn": 1,
+      "tp": 0
+    },
+    {
+      "accuracy": 0.0,
+      "condition": "independent",
+      "conditions": [
+        "independent"
+      ],
+      "false_positive_rate": null,
+      "fn": 2,
+      "fp": 0,
+      "mean_latency_ms": 15.648564500224893,
+      "precision": null,
+      "recall": 0.0,
+      "sample_count": 2,
+      "tn": 0,
+      "tp": 0
+    }
+  ],
+  "localization": {
+    "box_fn": 20,
+    "box_fp": 0,
+    "box_precision": null,
+    "box_recall": 0.0,
+    "box_tp": 0
+  },
+  "metrics": {
+    "accuracy": 0.3548387096774194,
+    "conditions": [
+      "background",
+      "blur",
+      "cluttered",
+      "dim",
+      "distractor",
+      "far",
+      "glare",
+      "independent",
+      "normal",
+      "occluded",
+      "rotated"
+    ],
+    "false_positive_rate": 0.0,
+    "fn": 20,
+    "fp": 0,
+    "mean_latency_ms": 19.11581883870249,
+    "precision": null,
+    "recall": 0.0,
+    "sample_count": 31,
+    "tn": 11,
+    "tp": 0
+  },
+  "sweep": []
+}

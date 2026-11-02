@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "human_gain": 0.0,
+    "influence_m": 1.0,
+    "step_m": 0.08
+  },
+  "social_1": {
+    "human_gain": 0.75,
+    "influence_m": 2.2,
+    "step_m": 0.08
+  },
+  "social_2": {
+    "human_gain": 1.8,
+    "influence_m": 2.1,
+    "step_m": 0.08
+  }
+}

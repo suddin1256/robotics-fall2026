@@ -1,0 +1,14 @@
+{
+  "run_id": "open_bfs_0_baseline_e63fc156b6",
+  "map": "open",
+  "planner": "bfs",
+  "sample": 301,
+  "point": {
+    "t": 31.8,
+    "x": 3.947324095857687,
+    "y": -2.163416366777088,
+    "speed_mps": 0.29999999999992255
+  },
+  "tracking_error_m": 0.07232409585768718,
+  "feature": "Turn"
+}

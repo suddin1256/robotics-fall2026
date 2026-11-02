@@ -1,0 +1,61 @@
+{
+  "status": "succeeded",
+  "error": "",
+  "planning_s": 0.00021151999999347026,
+  "expanded": 22,
+  "peak_frontier": 6,
+  "path": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ]
+  ],
+  "path_length_m": 2.5,
+  "optimal_length_m": 2.5,
+  "optimality_ratio": 1.0,
+  "case": "Required detour",
+  "planner": "astar",
+  "source_sha256": "1504b924dd517e465c4bef9b76dd44ffdc52c533072bd4a2b6c3598e9cd0bcb7",
+  "expected_status": "succeeded",
+  "check_passed": true
+}

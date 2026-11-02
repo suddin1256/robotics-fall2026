@@ -1,0 +1,5 @@
+{
+  "mission_2.prediction": "I pick both A* and BFS; however, I predict that A* will finish quicker than BFS on the constrained map because A* has a heuristic guide to help search towards the goal, while BFS explores more paths without considering the true direction of the goal.",
+  "mission_2.performance": "Both A* and BFS were successful on the constrained map; A* took 91.204 seconds and traveled 24.05 meters, while BFS took 90.210 seconds and traveled 23.98 meters.  My original prediction was wrong: A* would finish first; however, it was BFS that finished first. Both planners had the same planned path length of 24.5 meters.",
+  "mission_2.choice": "I chose PRM as my delivery planner because it succeeded on both maps and was faster than A*. On the open map, PRM finished in 35.556 seconds compared to A* at 46.152 seconds. On the constrained map, PRM finished in 74.980 seconds compared to A* at 91.204 seconds. PRM also traveled a shorter distance on both maps. I think faster navigation while successfully reaching the destination is the biggest advantage for deliveries."
+}

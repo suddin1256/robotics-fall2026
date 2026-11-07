@@ -1,0 +1,158 @@
+{
+  "version": 2,
+  "run_id": "20736ba9c09e45fe8cbabb17a0e356fc",
+  "mission": "mission_2",
+  "saved_at": "2026-11-07T18:49:57.872643+00:00",
+  "settings": {
+    "experiment": "local-live-v2",
+    "model": {
+      "id": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "revision": "a7da5b986cb59b408707209984f360a5f4ad7e47"
+    }
+  },
+  "rows": [
+    {
+      "job_id": "7c5a3042e05a4db4b7d3951da29db5cc",
+      "kind": "vision",
+      "case": "identify",
+      "prompt": "What tool is lying in the foreground of this workbench?",
+      "phase": "baseline",
+      "parent_id": null,
+      "requested_at": "2026-11-07T17:50:08.900367+00:00",
+      "comparison_ids": [],
+      "output": "Tape measure.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "What tool is lying in the foreground of this workbench?",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 4,
+      "max_new_tokens": 80,
+      "generation_seconds": 16.47,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "completed_at": "2026-11-07T17:51:04.410559+00:00"
+    },
+    {
+      "job_id": "1e1239024c954b20aab68c1e0928b33c",
+      "kind": "vision",
+      "case": "spatial",
+      "prompt": "Where is the black vertical metal post relative to the tool in the foreground?",
+      "phase": "baseline",
+      "parent_id": null,
+      "requested_at": "2026-11-07T17:51:20.272254+00:00",
+      "comparison_ids": [],
+      "output": "The black vertical metal post is to the right of the tool in the foreground.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "Where is the black vertical metal post relative to the tool in the foreground?",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 17,
+      "max_new_tokens": 80,
+      "generation_seconds": 6.394,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "completed_at": "2026-11-07T17:51:26.828146+00:00"
+    },
+    {
+      "job_id": "1b67ff0a67c344e1842d7a5a53c52e5b",
+      "kind": "vision",
+      "case": "purpose",
+      "prompt": "A robot needs the correct tool for its task. Which object in this image should it pick up?",
+      "phase": "baseline",
+      "parent_id": null,
+      "requested_at": "2026-11-07T17:51:32.780402+00:00",
+      "comparison_ids": [],
+      "output": "The robot needs the correct tool for its task. The correct tool is a measuring tape.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "A robot needs the correct tool for its task. Which object in this image should it pick up?",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 19,
+      "max_new_tokens": 80,
+      "generation_seconds": 4.255,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "completed_at": "2026-11-07T17:51:37.239699+00:00"
+    },
+    {
+      "job_id": "5150d21958f74704b9e41b8f653c9786",
+      "kind": "vision",
+      "case": "custom",
+      "prompt": "The robot is preparing to mark a circle on a flat wooden workpiece. Looking at the image, which visible tool could help us with this task? List the specific visible evidence supporting your choice (such as the metal legs or the shape of the tool in the foreground), and explicitly state what must be checked regarding the tool's condition or usability before the robot can actually use it. Separate your visual evidence from any operational assumptions.",
+      "phase": "custom",
+      "parent_id": null,
+      "requested_at": "2026-11-07T18:43:44.755706+00:00",
+      "comparison_ids": [
+        "7c5a3042e05a4db4b7d3951da29db5cc",
+        "1e1239024c954b20aab68c1e0928b33c",
+        "1b67ff0a67c344e1842d7a5a53c52e5b"
+      ],
+      "output": "The visible tool that could help us with this task is a metal clamp. We must check that the clamp is in good condition and that it is suitable for use on a flat wooden workpiece.",
+      "model": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "model_revision": "a7da5b986cb59b408707209984f360a5f4ad7e47",
+      "system_prompt": "",
+      "model_input": "The robot is preparing to mark a circle on a flat wooden workpiece. Looking at the image, which visible tool could help us with this task? List the specific visible evidence supporting your choice (such as the metal legs or the shape of the tool in the foreground), and explicitly state what must be checked regarding the tool's condition or usability before the robot can actually use it. Separate your visual evidence from any operational assumptions.",
+      "image_sha256": "0c0e4365ce25ec9f22daf3bd4d95883bddd9782289ec17fdb7d2b7c4e8b280ff",
+      "image_preprocessing": {
+        "longest_edge": 512,
+        "image_splitting": false
+      },
+      "generated_tokens": 39,
+      "max_new_tokens": 80,
+      "generation_seconds": 24.443,
+      "truncated": false,
+      "decoding": "greedy",
+      "device": "cpu",
+      "live_inference": true,
+      "library_versions": {
+        "torch": "2.8.0+cpu",
+        "transformers": "4.57.1"
+      },
+      "output_constraint": null,
+      "completed_at": "2026-11-07T18:45:02.349829+00:00"
+    }
+  ],
+  "responses": {
+    "analysis": "I chose the decide task. My revised request created a more detailed breakdown by evaluating tool usability, but this small VLM still struggled with visual reasoning and incorrectly identified the metal drawing compass in the foreground as a \"metal clamp.\" While the original response guessed it was a measuring tape without context, the revised prompt forced the model to look at the tool and separate its physical traits, even though the model's visual classification misidentified the specific tool itself."
+  },
+  "extra": {
+    "draft_signature": "243a6af23aee4bc248b5176a5d4940a52db8801afec88eb412a0fc6214fb900f",
+    "upstream_run": "1728645f646346bebb8a942d6f57bc96"
+  }
+}

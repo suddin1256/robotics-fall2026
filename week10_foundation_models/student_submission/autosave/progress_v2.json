@@ -1,0 +1,73 @@
+{
+  "stage": "final_submission",
+  "responses": {
+    "m1_analysis": "Yes, my request successfully improved the response. It avoided the invalid manipulation attempts seen in the out-of-bounds example. However, the small model at the end seems like it hallucinated at the desk instead of the base.  It respects the robot's hardware capability in case it doesn't have an arm.",
+    "m2_analysis": "I chose the decide task. My revised request created a more detailed breakdown by evaluating tool usability, but this small VLM still struggled with visual reasoning and incorrectly identified the metal drawing compass in the foreground as a \"metal clamp.\" While the original response guessed it was a measuring tape without context, the revised prompt forced the model to look at the tool and separate its physical traits, even though the model's visual classification misidentified the specific tool itself.",
+    "m3_analysis": "My prompt successfully guided the robot to move up the initial corridor and turn right, but like the \"Goal only\" prompt, it had the looping behavior once it hit the wall barrier. While it avoided the STOP pauses like in the third prompt, I think the small model's limitation in tracking multi-step directional constraints across a grid still caused it to stall out before reaching the target.",
+    "final_synthesis": "From all three missions, turning a model's response into reliable robot behavior requires balancing a clear prompt with physical constraints. In mission 1, capability cards helped limit the LLM to valid movements like navigating and inspecting, even though the small model still got confused about starting states.  In Mission 2, setting prompts in visual evidence helped the VLM look for the right tools, but it still struggled with accurate object classification.  In Mission 3, direct prompts about the environment reduced hesitation compared to vague goals, but the robot still got stuck in looping behaviors when it hit walls. One major remaining limitation is the gap between high-level reasoning and physical execution; small models easily lose track of multi-step coordinates, showing that foundation models must be paired with safety rules.",
+    "final.course_reflection": "This lab showed me how foundation models can bridge the gap between high-level reasoning and physical hardware, making me think a lot about how we can build more intuitive and flexible control systems for robotics. Working hands-on with small models and seeing their limitations, like getting stuck in loops or even hallucinating states, definitely makes me want to dive deeper into edge computing and optimizing compact AI models for real-time robotic applications."
+  },
+  "student": {
+    "name": "Shadib Uddin",
+    "email": "24101093"
+  },
+  "tutorial_step": 5,
+  "tutorial_reviewed": 6,
+  "controls": {
+    "control_ground_instruction": "Point to the cup",
+    "control_demo_step": 3,
+    "control_adapt_scenario": "The new robot has a different gripper interface",
+    "control_adapt_instruction": "Move it",
+    "control_adapt_choice": "Full fine-tuning",
+    "control_adapt_records": 6,
+    "control_chunk_size": 6,
+    "control_movement_angle": 0,
+    "control_movement_token": 255,
+    "control_chunk_hz": 5,
+    "control_validate_conf_navigate": 0.9,
+    "control_validate_age_navigate": 0.1,
+    "control_validate_case": "Inspect the known cup",
+    "control_validate_conf_inspect": 0.9,
+    "control_validate_age_inspect": 3.3,
+    "control_live_language_active": "d753435c75dd4817ac5333ec95311205",
+    "control_live_language_runs": [
+      "c1ddb603ea5d46809cf43e877e7634d8",
+      "44ddf56da51442a4b24c49e0ea2d1fe0",
+      "55ffcdd44c3246a193a98e63587f1c89",
+      "d753435c75dd4817ac5333ec95311205"
+    ],
+    "control_live_language_custom_prompt": "Go to the desk, inspect the book, and report what you observe.",
+    "control_live_vision_active": "5150d21958f74704b9e41b8f653c9786",
+    "control_live_vision_runs": [
+      "7c5a3042e05a4db4b7d3951da29db5cc",
+      "1e1239024c954b20aab68c1e0928b33c",
+      "1b67ff0a67c344e1842d7a5a53c52e5b",
+      "5150d21958f74704b9e41b8f653c9786"
+    ],
+    "control_live_vision_custom_prompt": "The robot is preparing to mark a circle on a flat wooden workpiece. Looking at the image, which visible tool could help us with this task? List the specific visible evidence supporting your choice (such as the metal legs or the shape of the tool in the foreground), and explicitly state what must be checked regarding the tool's condition or usability before the robot can actually use it. Separate your visual evidence from any operational assumptions.",
+    "control_robot_runs": [
+      "54ef28217e4f4a8b97e51614ee84f840",
+      "7ef353a60a3042608f81660d43cd2192",
+      "6b58ddfe014e4a05adb1f7acea001789",
+      "e7a44e576aab408eb5a86623f0bb4488"
+    ],
+    "control_robot_active": "e7a44e576aab408eb5a86623f0bb4488",
+    "control_robot_custom_prompt": "Reach the blue target crate at (11,1). From (1,7), move UP to row 1, then move RIGHT along row 1 until you reach column 11, avoiding walls by turning if blocked."
+  },
+  "guided_version": 4,
+  "guided_seen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "response_widgets": [
+    "m1_analysis",
+    "m2_analysis",
+    "m3_analysis",
+    "final_synthesis"
+  ],
+  "version": 2
+}

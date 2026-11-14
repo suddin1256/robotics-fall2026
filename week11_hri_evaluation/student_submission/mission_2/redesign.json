@@ -1,0 +1,6 @@
+{
+  "case": "cancel",
+  "phase": "CANCELLED",
+  "message": "ok cancellling",
+  "rationale": "I feel that if I initially give confirmation and then, mid-task, ask for a change, there shouldn't be a need for an additional confirmation, which would make the whole interaction unnecessarily long."
+}

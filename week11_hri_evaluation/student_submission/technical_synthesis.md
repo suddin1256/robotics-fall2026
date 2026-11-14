@@ -1,0 +1,2 @@
+For me personally, I would pick voice autonomy with full autonomy, with a phone app as a backup. Voice autonomy allows a user to have the benefits of a robot handling tasks without manual operation; however 
+I would like to make the voice interaction more fluid and human without so many confirmations, like you do a correction, it should need a new confirmation. Full autonomy and manual mode should be backups for when u need to be quiet, or you can't talk.

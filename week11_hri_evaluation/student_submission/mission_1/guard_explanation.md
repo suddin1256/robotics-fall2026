@@ -1,0 +1,1 @@
+My controller returns only returns begin when a confirm event comes in while the robot is in this confirm mode or phase. In the “Missing readiness times out” trace, the second row shows confirm to begin, moving the robot from confirm to executing. This guard makes the robot wait for confirmation before it starts moving.
